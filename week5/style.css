@@ -1,0 +1,49 @@
+.card{
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.card:hover{
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    cursor: pointer;
+    box-shadow: 0px -1px 14px #000000;
+
+}
+h2,p{
+    margin:0;
+}
+.card-header{
+    display:flex;
+}
+.card-body{
+    border-top:1px solid black;
+    margin-top:10px;
+    padding-top:10px;
+
+}
+
+.Main-Box{
+    display:flex;
+    gap: 20px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.btn{
+    border:none;
+    background: linear-gradient(90deg,hwb(243 0% 86%) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color:#ffffff
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+
+.btn:hover{
+ background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    cursor: pointer;
+
+
+}
