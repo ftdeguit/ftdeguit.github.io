@@ -1,0 +1,63 @@
+body{
+    margin:0;
+}
+h3, h2{
+    margin: 10px;
+}
+
+.header{
+    display: flex;
+    background: #212529;
+    height: 50px;
+    color: white;
+    padding: 10px;
+}
+.right-header{
+    display: flex;
+    margin-left: auto;
+    margin-top: 4px;
+}
+
+.btn{
+    margin: 10px;
+    background-color: #198753;   
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+img{
+    width: 67%;
+}
+
+.card-form{
+    display: flex;
+    background-color: #e6e0e0;
+    
+}
+
+.h2{
+    padding: 50px;
+    text-align:center;
+}
+.parent-container {
+        text-align: left; 
+
+.single-card-container {
+        width: 600px; 
+        margin: 0 auto;
+        align-items: LEFT; 
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 10%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 10px 16px;
+}
